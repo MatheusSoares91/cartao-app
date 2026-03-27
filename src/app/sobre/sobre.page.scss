@@ -1,0 +1,28 @@
+.container-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #3880ff;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  max-width: 300px;
+}
+
+ion-button {
+  margin-top: 20px;
+}
